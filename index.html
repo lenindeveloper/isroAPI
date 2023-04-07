@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ISRO API Project</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>ISRO API Project</h1>
+      <nav>
+        <ul>
+          <li><a href="#centres">Centres</a></li>
+          <li><a href="#spacecrafts">Spacecrafts</a></li>
+          <li><a href="#rockets">Rockets</a></li>
+          <li><a href="#customer-satellites">Customer Satellites</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="centres">
+        <h2>ISRO Centres</h2>
+        <form>
+          <label for="state-select">Select a State:</label>
+          <select id="state-select">
+            <option value="Andhra Pradesh">Andhra Pradesh</option>
+            <option value="Karnataka">Karnataka</option>
+            <option value="Kerala">Kerala</option>
+            <option value="Maharashtra">Maharashtra</option>
+            <option value="Odisha">Odisha</option>
+            <option value="Tamil Nadu">Tamil Nadu</option>
+          </select>
+          <button id="search-centres-btn">Search</button>
+        </form>
+        <div id="centres-list"></div>
+      </section>
+      <section id="spacecrafts">
+        <h2>ISRO Spacecrafts</h2>
+        <div id="spacecrafts-list"></div>
+      </section>
+      <section id="rockets">
+        <h2>ISRO Rockets</h2>
+        <div id="rockets-list"></div>
+      </section>
+      <section id="customer-satellites">
+        <h2>ISRO Customer Satellites</h2>
+        <form>
+          <label for="country-input">Enter a Country Name:</label>
+          <input type="text" id="country-input" />
+          <button id="search-customer-satellites-btn">Search</button>
+        </form>
+        <div id="customer-satellites-list"></div>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>

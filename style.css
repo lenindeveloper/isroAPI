@@ -1,0 +1,95 @@
+/* Set font and background color for body */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f7f7f7;
+}
+
+/* Style the header */
+header {
+  background-color: #0d47a1;
+  color: #fff;
+  padding: 20px;
+}
+
+/* Style the title */
+h1 {
+  margin: 0;
+  font-size: 36px;
+}
+
+/* Style the main content area */
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+/* Style the card containers */
+.card {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+  width: calc(33.33% - 20px);
+}
+
+/* Style the card headings */
+.card h2 {
+  font-size: 24px;
+  margin-top: 0;
+}
+
+/* Style the card links */
+.card a {
+  display: inline-block;
+  background-color: #0d47a1;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  margin-top: 20px;
+}
+
+/* Style the search bar */
+.search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.search input[type="text"] {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: none;
+  width: 60%;
+  margin-right: 10px;
+}
+
+.search button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: none;
+  background-color: #0d47a1;
+  color: #fff;
+  cursor: pointer;
+}
+
+/* Style the footer */
+footer {
+  background-color: #0d47a1;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  margin-top: 20px;
+}
+a {
+  color: #fff;
+  text-decoration: none;
+}
