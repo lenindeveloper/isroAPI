@@ -20,4 +20,4 @@ Features of the project:
    * [Customer Satellites](https://isro.vercel.app/api/customer_satellites)
    * [Centres](https://isro.vercel.app/api/centres)
  ## Output Results
- ![output]()
+ ![output](output.png)
